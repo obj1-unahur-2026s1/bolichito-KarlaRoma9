@@ -106,6 +106,9 @@ object cajita {
   method peso(){
     return 400 + objetoDentro.peso()
   }
+  method material(){
+    return cobre
+  }
 }
 object lino {
   method esBrillante(){
